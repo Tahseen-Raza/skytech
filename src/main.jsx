@@ -66,7 +66,7 @@ function App() {
           </button>
           <div className={`nav-links ${menuOpen ? 'is-open' : ''}`}>
             <a href="#services" onClick={closeMenu}>What we do</a>
-            <a href="#work" onClick={closeMenu}>Selected work</a>
+            <a href="#portfolio" onClick={closeMenu}>Portfolio</a>
             <a href="#approach" onClick={closeMenu}>Our approach</a>
             <a className="nav-cta" href="#contact" onClick={closeMenu}>Start a project <Arrow /></a>
           </div>
@@ -107,11 +107,11 @@ function App() {
           </div>
         </section>
 
-        <section className="work-section" id="work">
+        <section className="work-section" id="portfolio">
           <div className="container">
-            <div className="work-heading"><div><p className="eyebrow">Selected work / 02</p><h2>Made for the<br /><em>real world.</em></h2></div><p>Big challenges call for clear thinking. A glimpse at the kind of transformation we help create.</p></div>
+            <div className="work-heading"><div><p className="eyebrow">Portfolio / 02</p><h2>Made for the<br /><em>real world.</em></h2></div><p>Big challenges call for clear thinking. A glimpse at the kind of transformation we help create.</p></div>
             <div className="project-grid">
-              <article className="project project-large"><div className="project-visual visual-coral"><div className="visual-window"><div className="window-bar"><i></i><i></i><i></i></div><div className="dashboard"><span></span><b></b><i></i></div></div><div className="project-stamp">01 / Digital ecosystem</div></div><div className="project-info"><div><h3>Moving enterprise<br />forward</h3><p>Product strategy · Web application</p></div><Arrow /></div></article>
+              <article className="project project-large"><div className="project-visual visual-coral"><img className="project-image" src="/chatbot-project.png" alt="Skytech chatbot web application" /><div className="project-stamp">01 / Chatbot web application</div></div><div className="project-info"><div><h3>Conversations that<br />move work forward</h3><p>Chatbot · Web application</p></div><Arrow /></div></article>
               <article className="project project-small"><div className="project-visual visual-blue"><div className="blue-orb"></div><div className="project-stamp">02 / Connected teams</div></div><div className="project-info"><div><h3>Simple tools.<br />Serious impact.</h3><p>Power Platform · Automation</p></div><Arrow /></div></article>
             </div>
             <div className="client-row">
